@@ -79,13 +79,13 @@ body{
     justify-content: center;
 }
 .item img{
-    border: 1px solid #8B8B83;
+    border: 3px solid #8B8B83;
     margin: 30px 0px 20px 20px;
     filter: grayscale(100%) opacity(30%);
 }
 .item img:hover{
     filter: grayscale(0%) opacity(100%);
-    border: 1px solid #DCDCDC;
+    border: 3px solid #DCDCDC;
 }
 .foto img{
     border-radius: 50%;
@@ -133,14 +133,14 @@ form{
 .topoChocoBella{
     background-image: url("/img/capa-chocoBella.jpg");
 }
-.topoCeret{
-    background-image: url("/img/capa-ceret.jpg");
-}
 .topoCandidoCake{
     background-image: url("/img/capa-candido.jpg");
 }
 .topoBocadinhoDeAmor{
     background-image: url("/img/capa-bocadinho.jpg");
+}
+.topoRM{
+    background-image: url("/img/topoRMmodas.jpg");
 }
 .botao{
     display: flex;
