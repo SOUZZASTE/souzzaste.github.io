@@ -150,10 +150,18 @@ form{
 .conteudoTrabalho img{
     width: 100%;
 }
-@media (max-width: 768px){
-    .rodape, .menu{
+@media (max-width: 550px){
+    .rodape{
         display: block;
         text-align: center;
+    }
+    .menu, a{
+        display: block;
+        text-align: center;
+
+    }
+    .menu img{
+        width: 20%;
     }
     .trabalhos img{
         width: 90%;
@@ -215,4 +223,10 @@ form{
 .sobreMim2 img{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.redeSociais img{
+    margin-top: 20px;
+    width: 35px;
+    padding: 5px;
+    margin-left: 25px;
 }
