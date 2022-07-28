@@ -4,14 +4,14 @@
 }
 .menu a{
     color:white;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 .menu li{
     display: inline;
-    padding-right: 15px;
-    
+    padding-right:20px;
+    padding-left: 20px;
 }
 .menu ul{
     list-style-type: none;
@@ -23,7 +23,7 @@
     width: 100%;
     max-width: 1200;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
 }
 .menu ul li a:hover{
     background-color: #CD5555;
@@ -42,7 +42,8 @@ body{
 .direitos{
     color: white;
     font-size: 12px;
-    margin-top: 75px;
+    margin-top: 34px;
+    text-align: center;
 }
 .redeSociais, .redeSociais p{
     color: white;
@@ -54,8 +55,7 @@ body{
     margin-top: 20px;
     width: 35px;
     padding: 5px;
-    margin-left: 5px;
-    margin-left: 5px;
+    margin-left: 25px;
 }
 .capa h1{
     color: white;
